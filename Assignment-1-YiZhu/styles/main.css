@@ -1,0 +1,172 @@
+@import 'https://fonts.googleapis.com/css?family=Alfa+Slab+One';
+
+body {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	background-color: #ffa200;
+}
+
+.head-bar {
+	position: absolute;
+	margin: 0 0 auto;
+}
+
+#logo {
+	position: relative;
+	width: 800px;
+	margin: 0 0 auto;
+}
+
+.navigator {
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	width: 680px;
+	height: auto;
+	margin: 20px 0px 0px 60px;
+}
+
+.navigator>.navi-button {
+	flex: 1;
+	display: flex;
+	/*height: auto;*/
+	flex-flow: column nowrap;
+	background-image: url(../images/navigate-bar.png);
+	background-repeat: no-repeat;
+	margin: 0 0 auto;
+	/*padding: 10px;*/
+}
+
+.navi-button>.navi-content {
+	overflow: hidden;
+	flex: 0 1 auto;
+	display: flex;
+	width: auto;
+	height: auto;
+	flex-flow: column nowrap;
+	display: none;
+	padding-left: 15px;
+	background-color: #5f0b0a;
+	margin: 10px 0 0 0px;
+}
+
+.navi-button.open>.navi-content {
+	overflow: hidden;
+	display: block;
+}
+
+.navi-button.open>.navi-title {
+	color: #ffa200;
+}
+
+.navi-button>.navi-title:hover {
+	color: #ffa200;
+}
+
+.navi-button>.navi-title {
+	display: block;
+	padding-top: 12px;
+	margin: auto;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 20px;
+	color: #fcd144;
+}
+
+.navi-content>.subtext {
+	display: inline-block;
+	margin: auto;
+	padding-top: 20px;
+	font-size: 15px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #ffa200;
+}
+
+.main-body {
+	position: absolute;
+	margin-top: 400px;
+}
+
+.heroes {
+	display: flex;
+	flex-flow: row wrap;
+	width: 960px;
+	height: auto;
+}
+
+.heroes>.hero-details {
+	flex: 1;
+	display: flex;
+	flex-flow: column wrap;
+	margin: 10px 10px 70px 10px;
+	padding-left: 10px;
+}
+
+.hero-details>.hero-image {
+
+}
+
+.hero-details>.navi-content {
+	overflow: hidden;
+	display: none;
+	margin: auto;
+}
+
+.hero-details.open>.navi-content {
+	overflow: hidden;
+	display: block;
+}
+
+.hero-details>.hero-name {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -90px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #fcd144;
+}
+
+.foot-link {
+	position: absolute;
+	margin-top: 1450px;
+	margin-bottom: 50px;
+}
+
+.foot-link>.social {
+	position: absolute;
+	display: flex;
+	flex-flow: row nowrap;
+	margin-left: 50px;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+.facebook {
+	padding: 10px;
+}
+
+.twitter {
+	padding: 10px;
+}
+
+.blizzard {
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
